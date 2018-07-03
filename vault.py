@@ -22,6 +22,7 @@ for fi in bins:
     res = int(res, 16)
     new = open(fi+".jpg", "wb")
     barr = []
+    print("decrypting file......")
     with open(fi, "rb") as f:
         byte = f.read(1)
         while byte:
@@ -37,3 +38,4 @@ for fi in bins:
     new.write(barrb)
     new.close()
     fa.close()
+    print("SUCCESS!")
