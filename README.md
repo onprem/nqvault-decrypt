@@ -15,6 +15,12 @@ copy the vault.py in the directory which contains all your encrypted files and r
 python vault.py
 ```
 
+or 
+
+```
+python3 vault.py
+```
+
 done!
 
 ## How does nq-vault works?
